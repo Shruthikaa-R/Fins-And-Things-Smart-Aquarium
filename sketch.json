@@ -1,0 +1,31 @@
+{
+  "cpu": {
+    "fqbn": "esp32:esp32:esp32doit-devkit-v1:UploadSpeed=921600,FlashFreq=80,DebugLevel=none,EraseFlash=none",
+    "name": "ESP32 Dev Module",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_DEVICE_KEY",
+      "value": ""
+    },
+    {
+      "name": "SECRET_OPTIONAL_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    }
+  ],
+  "included_libs": [
+    {
+      "name": "DallasTemperature",
+      "version": "3.9.0"
+    },
+    {
+      "name": "OneWire",
+      "version": "2.3.7"
+    }
+  ]
+}
